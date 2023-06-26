@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test 1</title>
+    <style>
+        table, th, td,  tr {border: 3px blue solid; text-align: center; border-collapse: collapse;}
+        h1{color: brown;}
+        body{background-color: rgb(106, 241, 212);}
+        .yellow{background-color: yellowgreen;}
+        
+        
+    </style>
+</head>
+<body>
+    <h1>GETTING STARTED WITH HTML</h1>
+    <h2>HTML Introduction</h2>
+    <p>HTML is the standard markup language for making web pages.</p>
+    <h3>What is html?</h3>
+    <ul style="list-style-type: disc;">
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML describes the structure of a Web page.</li>
+        <li>HTML consists of a series of elements.</li>
+        <li>HTML elements tell the browser how to display the content.</li>
+        <li>HTML elements label pieces of content such as "this is a a heading", "this is a link", "this is a paragraph" etc. </li>
+    </ul>
+    <br>
+    <h4>What is an HTML element</h4>
+    <p>
+        An HTML element is defined by a start tag, some content and an end.<br>
+        The HTML element is everything from the start tag to the end tag.<br>      
+    </p>
+    <p style="background-color: yellowgreen;">
+        <b>Note:</b> Some elements have no content like the (br) elemnt.<br>
+        These elements are called empty elements. Empty elements do not have an end tag.
+    </p>
+    <h5><u>LISTS</u></h5>
+    <p>
+        HTML lists allow web developers to group aset of related items in lists. <br>
+        Example:<br>
+        An unordered HTML list:<br>
+        <ul style="list-style-type: disc;">
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+        An ordered HTML list:<br>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+        <b>Description Lists</b><br>
+        HTML also supports description lists. A description list is a list of items, with description of each of them.<br>
+        Example:
+        <dd>
+            <dl>coffee</dl>
+            <ul style="list-style-type: disc"><li>black hot drink</li></ul>
+            <dl>Milk</dl>
+            <ul style="list-style-type: disc"><li>White cold drink</li></ul>
+        </dd>
+    </p>
+
+    <p>
+        <b><u>IMAGES</u></b>
+        <br>
+        Images can improve the design and the appearance of a web page. Images are linked to web pages and not technivally inserted.<br>
+        The tag used here has two attributes:<br>
+       <ul>
+        <li>src- Specifies the path to the image.</li>
+        <li>alt- Specifies an alternate text for the image if the user for some reason cannot view it(because of slow connection, an error in the src<br>
+        attribute or if the user uses a screen reader).</li>
+       </ul>
+       <br>
+       If a browser cannot find an image, it'll display the value of the alt attribute.<br>
+       Example:
+       <br> 
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJk_YS8nz1ueY4iGXhYfb3Qf1j6XzX8sODgX8vqzOjiQ&s" alt="Glowing stick">    
+    <br><br>
+    Example of images inserted locally and externally:
+    <br>
+    <img src="Porche.jpg" alt="" width="250" height="150">
+    <br>
+    This is an image linked from a local source.
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabukRRERMNJ-LvUuGUGsc-UbbJoXcYxzMDgmzizKWgg&s" alt="Carrera Gt">
+    <br>
+    This is an image of a car extracted online.
+    <br>
+    
+    <a href="https://www.adidas.com/us/men-shoes"><img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe18a06312a04606b34cabeb0008e24e_9366/nizza-platform-shoes.jpg" alt=""></a>
+    <br>
+    This is an image of a shoe and the image is also a link.   
+    </p>
+
+    <p>
+        <b><u>HYPERLINKS</u></b>
+        <br><br>
+        <a href="https://www.adidas.com/us/men-shoes">Adidas sportswear</a>
+        <br><br>
+        Above is an example of a hyperlink
+    </p>
+    
+    <p>
+        <b><u>IFRAMES</u></b>
+        <br><br>
+        Iframes are used to display a webpage within a web page. They are used to embed maps and link websites to an iframe.
+        <br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3988.9028169596536!2d36.88834936475379!3d-1.2274373991047147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKasarani%20stadium!5e0!3m2!1sen!2ske!4v1686829659172!5m2!1sen!2ske" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+        <iframe src="Kasarani.html" frameborder="0" name="trainer_b" title="trainer" width="200" height="150"></iframe>
+    <p>
+        <a href="https://kipkeinoclassic.co.ke/" alt="" target="trainer_b">Adidas sportswear</a>
+    </p>
+
+    <p>
+        <u>TABLES</u>
+        <br>
+        Below is an example of tables:
+        <br><br>
+        <table style="width: 70%; height: 50%">
+            <thead>               
+                <th>Company Name</th>
+                <th>Country</th>
+                <th>Contact Person</th>
+            </thead>
+            <tbody>
+                <tr class="yellow">
+                    <td>Kasneb</td>
+                    <td>Kenya</td>
+                    <td>Ruth Kamene</td>
+                </tr>
+                <tr>
+                    <td>Rooters</td>
+                    <td>Rwanda</td>
+                    <td>Vanessa Jane</td>
+                </tr>
+                <tr>
+                    <td class="yellow">Bwarier</td>
+                    <td>Burundi</td>
+                    <td class="yellow">Brian Nira</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>Company Name</th>
+                <th>Country</th>
+                <th>Contact Person</th>
+            </tfoot>
+        </table>
+    </p>
+
+    <p>
+        <u>FORMS</u>
+        <br>
+        A simple example of forms is given:
+        <br>
+
+        <form action="">
+            <label for="First name">First name</label><br>
+            <input type="text" id="First name" placeholder="First name">
+            <br><br>
+            <label for="Last name">Last name</label><br>
+            <input type="text" id="Last name" placeholder="Last name">
+            <br><br>
+            <input type="checkbox" id="bike" >
+            <label for="bike">I have a bike</label>
+            <br>
+            <input type="checkbox" id="car" >
+            <label for="car">I have a car</label>
+            <br>
+            <input type="checkbox" id="boat" >
+            <label for="boat">I have a bike</label>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </p>
+</body>
+</html>
